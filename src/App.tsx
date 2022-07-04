@@ -1,24 +1,19 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { BooksPage, DonatePage, ReturnPage } from './pages';
+import { Navbar } from './components';
 import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const [page, setPage] = useState(1); // 1 - books, 2 - donate, 3 - return
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar changePage={setPage}/>
+
+      {page == 1 ? <BooksPage/> :
+      page == 2 ? <DonatePage/> : 
+      <ReturnPage/>}
     </div>
   );
 }
