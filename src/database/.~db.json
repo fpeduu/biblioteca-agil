@@ -1,0 +1,52 @@
+{
+  "books": [
+    {
+      "name": "Como fazer sentido e bater o martelo",
+      "author": "Alexandro Aolchique",
+      "year": 2017,
+      "available": true,
+      "lendTo": "",
+      "id": 1
+    },
+    {
+      "name": "Sejamos todos feministas",
+      "author": "Chimamanda Ngozi Adichie",
+      "year": 2015,
+      "available": true,
+      "lendTo": "",
+      "id": 2
+    },
+    {
+      "name": "Basquete 101",
+      "author": "Hortência Marcari",
+      "year": 2010,
+      "available": true,
+      "lendTo": "",
+      "id": 3
+    },
+    {
+      "name": "A ilha do tesouro",
+      "author": "Robert Louis Stevenson",
+      "year": 1883,
+      "available": true,
+      "lendTo": "",
+      "id": 4
+    },
+    {
+      "name": "Farenheit 451",
+      "author": "Ray Bradbury",
+      "year": 1966,
+      "available": false,
+      "lendTo": "lipe",
+      "id": 5
+    },
+    {
+      "name": "blablabla",
+      "author": "lipe",
+      "year": 2004,
+      "available": false,
+      "lendTo": "nao",
+      "id": 6
+    }
+  ]
+}
