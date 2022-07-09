@@ -1,27 +1,9 @@
 import React from 'react';
 import { DonateContainer } from './styles'
-import { booksRegister } from '../assets'
 const fs = require('fs')
 const $ = require('jquery');
 
-const handleDonate = () => {    
-    let booksList = [];
-
-    for (let book in booksRegister) {
-        booksList.push(booksRegister[book]);
-    }
-
-    booksList.push({
-        "name": $('#book-name').value,
-        "author": $('#book-author').value,
-        "year": $('#book-year').value,
-        "status": 'Disponível',
-        "lendTo": ''
-    })
-
-    fs.writeFile('../assets/BooksRegister.json', JSON.stringify(booksList), () => {
-    });
-
+const handleDonate = () => {   
     console.log('book donated')
 }
 
