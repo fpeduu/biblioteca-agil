@@ -11,7 +11,6 @@
 
 <span id='sobre'></span>
 ## 🛈 Sobre
-<hr/>
 
 O site Biblioteca Ágil foi desenvolvido inicialmente como desafio para um processo seletivo. Mas, no fim, seu principal propósito foi para treino/estudo.
 
@@ -23,7 +22,6 @@ A aplicação é mobile-friendly e foi desenvolvida com [React](https://reactjs.
 
 <span id='features'></span>
 ## ✅ Features
-<hr/>
 
 - [x] Acessar, adicionar e alterar dados numa (fake) API
 - [x] Renderizar os itens visualmente
@@ -32,7 +30,6 @@ A aplicação é mobile-friendly e foi desenvolvida com [React](https://reactjs.
 
 <span id='tecnologias'></span>
 ## 🛠 Tecnologias 
-<hr/>
 
 - [React](https://reactjs.org/)
 - [json-server](https://www.npmjs.com/package/json-server)
@@ -51,7 +48,6 @@ A aplicação é mobile-friendly e foi desenvolvida com [React](https://reactjs.
 
 <span id='screenshots'></span>
 ## 📱 Screenshots
-<hr/>
 
 <img src='https://i.imgur.com/pzdbHzK.png'/>
 <img src='https://i.imgur.com/AhvOcWE.png'/>
