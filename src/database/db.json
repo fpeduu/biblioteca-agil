@@ -23,22 +23,6 @@
       "available": true,
       "lendTo": "",
       "id": 3
-    },
-    {
-      "name": "A ilha do tesouro",
-      "author": "Robert Louis Stevenson",
-      "year": 1883,
-      "available": true,
-      "lendTo": "",
-      "id": 4
-    },
-    {
-      "name": "Farenheit 451",
-      "author": "Ray Bradbury",
-      "year": 1966,
-      "available": false,
-      "lendTo": "lipe",
-      "id": 5
     }
   ]
 }

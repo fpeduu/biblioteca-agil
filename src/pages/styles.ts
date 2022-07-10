@@ -1,16 +1,20 @@
 import styled from 'styled-components';
 
-const Blue = styled.div`
+const ReturnContainer = styled.div`
     width: 100%;
-    height: 100vh;
+    height: 100%;
+    padding: 160px 0 60px;
 
-    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 `
 
 const BooksContainer = styled.div`
     width: 100%;
     height: 100%;
-    padding: 160px 0 80px;
+    padding: 160px 0 60px;
 
     display: flex;
     flex-direction: column;
@@ -30,14 +34,31 @@ const DonateContainer = styled.div`
     form {
         display: flex;
         flex-direction: column;
+        align-items: center;
         justify-content: space-around;
+        
+        margin-top: 3rem;
 
         height: 40%;
+
+        .inputContainer {
+            display: flex;
+            flex-direction: column;
+
+            input {
+                margin-top: .8rem;
+            }
+        }
+
+        button {
+            width: 40%;
+            height: 2rem;
+        }
     }
 `;
 
 export {
-    Blue,
+    ReturnContainer,
     BooksContainer,
     DonateContainer
 }

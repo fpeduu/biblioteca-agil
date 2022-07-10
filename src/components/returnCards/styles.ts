@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const BooksCardsContainer = styled.div`
+const ReturnCardsContainer = styled.div`
     width: 90%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -8,7 +8,7 @@ const BooksCardsContainer = styled.div`
     grid-row-gap: 2rem;
     grid-column-gap: 1.5rem;
 
-    .bookCard {
+    .returnCard {
         margin-top: 3rem;
         padding: 3rem 2rem;
 
@@ -27,10 +27,10 @@ const BooksCardsContainer = styled.div`
         button { 
             margin-top: .5rem;
         }
+    }
 
-        .hidden {
-            cursor: not-allowed;
-        }
+    h3 { 
+        margin-top: 3rem;
     }
 
     .green span {
@@ -50,13 +50,15 @@ const BooksCardsContainer = styled.div`
         align-items: center;
         justify-content: space-around;
 
-        .bookCard {
+        .spanDiv {
+            display: none;
+        }
+        
+        .returnCard {
             width: 80vw;
             margin-top: 1.2rem;
         }
     }
 `;
 
-export {
-    BooksCardsContainer
-}
+export { ReturnCardsContainer };

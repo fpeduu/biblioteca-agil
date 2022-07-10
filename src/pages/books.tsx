@@ -1,6 +1,6 @@
 import React from 'react';
 import { BooksContainer } from './styles';
-import { BooksCards, Navbar } from '../components'
+import { BooksCards } from '../components'
 
 const BooksPage: React.FC = () => {
     return (

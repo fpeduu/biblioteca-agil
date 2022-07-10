@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: 'https://my-json-server.typicode.com/fpeduu/biblioteca-agil-db/books'
+    baseURL: 'http://localhost:3001/books'
 });
 
 export default api;

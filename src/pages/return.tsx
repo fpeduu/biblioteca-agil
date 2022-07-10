@@ -1,9 +1,13 @@
 import React from 'react';
-import { Blue } from './styles';
+import { ReturnContainer } from './styles';
+import { ReturnCards } from '../components'
 
 const ReturnPage: React.FC = (changePage) => {
     return (
-        <Blue/>
+        <ReturnContainer>
+            <h2>Devolver livro</h2>
+            <ReturnCards/>
+        </ReturnContainer>
     );
 };
 
