@@ -49,8 +49,8 @@ A aplicação é mobile-friendly e foi desenvolvida com [React](https://reactjs.
 <span id='screenshots'></span>
 ## 📱 Screenshots
 
+<img src='https://i.imgur.com/OOBOaye.png'/>
 <img src='https://i.imgur.com/pzdbHzK.png'/>
 <img src='https://i.imgur.com/AhvOcWE.png'/>
 <img src='https://i.imgur.com/JHEBuoU.png'/>
 <img src='https://i.imgur.com/xwmWfoY.png'/>
-<img src='https://i.imgur.com/OOBOaye.png'/>
