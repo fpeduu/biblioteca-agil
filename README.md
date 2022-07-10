@@ -1,46 +1,60 @@
-# Getting Started with Create React App
+# Biblioteca Ágil
+## Aplicação para bibliotecas desenvolvida com fins de estudo
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+    <a href="#sobre">Sobre</a> •
+    <a href="#features">Features</a> •
+    <a href="#tecnologias">Tecnologias</a> •
+    <a href="#rodando">Como rodar</a> •
+    <a href="#screenshots">Screenshots</a>
+</p>
 
-## Available Scripts
+<span id='sobre'></span>
+## 🛈 Sobre
+<hr/>
 
-In the project directory, you can run:
+O site Biblioteca Ágil foi desenvolvido inicialmente como desafio para um processo seletivo. Mas, no fim, seu principal propósito foi para treino/estudo.
 
-### `npm start`
+O site utiliza a biblioteca [json-server](https://www.npmjs.com/package/json-server) para simular um banco de dados e permitir a o armazenamento de informações sobre livros em uma biblioteca.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Com o site é possível ver os livros disponíveis na biblioteca, pedí-los emprestados, adicionar livros à biblioteca e devolver os livros que foram emprestados.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+A aplicação é mobile-friendly e foi desenvolvida com [React](https://reactjs.org/) e [TypeScript](https://www.typescriptlang.org/docs/).
 
-### `npm test`
+<span id='features'></span>
+## ✅ Features
+<hr/>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [x] Acessar, adicionar e alterar dados numa (fake) API
+- [x] Renderizar os itens visualmente
+- [x] Conectar front-end e back-end
+- [ ] Realizar deploy em algum site
 
-### `npm run build`
+<span id='tecnologias'></span>
+## 🛠 Tecnologias 
+<hr/>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [React](https://reactjs.org/)
+- [json-server](https://www.npmjs.com/package/json-server)
+- [TypeScript](https://www.typescriptlang.org/docs/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<span id='rodando'></span>
+## 🎲 Como rodar a aplicação
+<hr/>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone o repositório e entre na pasta biblioteca-agil
+2. Utilize o comando 'npm install' no terminal
+3. Após ter instalado as dependências, abra dois terminais
+4. No primeiro, utilize o comando 'npm start-db'
+5. No segundo, utilize o comando 'npm start'
+6. Pronto! A aplicação será iniciada em http://localhost:3000 e pode ser testada à vontade!
 
-### `npm run eject`
+<span id='screenshots'></span>
+## 📱 Screenshots
+<hr/>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+<img src='https://i.imgur.com/pzdbHzK.png'/>
+<img src='https://i.imgur.com/AhvOcWE.png'/>
+<img src='https://i.imgur.com/JHEBuoU.png'/>
+<img src='https://i.imgur.com/xwmWfoY.png'/>
+<img src='https://i.imgur.com/OOBOaye.png'/>

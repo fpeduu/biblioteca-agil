@@ -20,8 +20,8 @@
       "name": "Basquete 101",
       "author": "Hortência Marcari",
       "year": 2010,
-      "available": true,
-      "lendTo": "",
+      "available": false,
+      "lendTo": "Filipe Silva",
       "id": 3
     }
   ]
