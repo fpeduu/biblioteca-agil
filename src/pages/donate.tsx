@@ -15,6 +15,8 @@ const handleDonate = async (bookName: String, bookAuthor: String, bookYear: Numb
     const response = await api.post('', newBook)
 
     alert('Livro doado. Obrigado!')
+
+    $('form').submit()
 }
 
 const DonatePage: React.FC = () => {
@@ -26,7 +28,11 @@ const DonatePage: React.FC = () => {
         <DonateContainer>
             <h2>Doar livro</h2>
 
-            <form action="/">
+            <form action="/"
+                onSubmit={e => {
+                    e.preventDefault();
+                    handleDonate(bookName, bookAuthor, Number(bookYear))
+                }}>
                 <div className="inputContainer">
                     <label htmlFor="book-name">Nome do livro:</label>
                     <input onChange={e => {setBookName(e.target.value)}} type="text" id='book-name' required/>
@@ -42,12 +48,7 @@ const DonatePage: React.FC = () => {
                     <input onChange={e => {setBookYear(e.target.value)}} type="number" id='book-year' required/>
                 </div>                
 
-                <button onClick={e => {
-                    e.preventDefault();
-                    handleDonate(bookName, bookAuthor, Number(bookYear)).then(
-                        $('form').submit()
-                    )
-                }}>Doar</button>
+                <button>Doar</button>
             </form> 
         </DonateContainer>
     );
