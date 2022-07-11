@@ -20,25 +20,9 @@
       "name": "Basquete 101",
       "author": "Hortência Marcari",
       "year": 2010,
-      "available": true,
-      "lendTo": "",
+      "available": false,
+      "lendTo": "lipe",
       "id": 3
-    },
-    {
-      "name": "a",
-      "author": "1",
-      "year": 123,
-      "available": true,
-      "lendTo": "",
-      "id": 4
-    },
-    {
-      "name": "Jogador número um",
-      "author": "Matheus",
-      "year": 2001,
-      "available": true,
-      "lendTo": "",
-      "id": 5
     }
   ]
 }
